@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="id1">Welcome User</h1>
+    <p id="demo">This is inside paragraph</p>
+    <button onclick="display()">Click</button>
+    <script>
+        function display()
+        {
+            document.getElementById("id1").innerHTML=Date();
+            document.getElementById("demo").style.color="Red"
+            
+        }
+    </script>
+</body>
+</html>
